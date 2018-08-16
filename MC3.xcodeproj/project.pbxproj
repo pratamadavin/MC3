@@ -54,14 +54,46 @@
 		FA756C8E2123ED3E0020A879 /* MC3 */ = {
 			isa = PBXGroup;
 			children = (
-				FA756C8F2123ED3E0020A879 /* AppDelegate.swift */,
-				FA756C912123ED3E0020A879 /* ViewController.swift */,
-				FA756C932123ED3E0020A879 /* Main.storyboard */,
-				FA756C962123ED3F0020A879 /* Assets.xcassets */,
-				FA756C982123ED3F0020A879 /* LaunchScreen.storyboard */,
+				FA756CA42123EDCB0020A879 /* Support */,
+				FA756CA32123EDB60020A879 /* Controller */,
+				FA756CA22123EDB00020A879 /* View */,
+				FA756CA12123EDA40020A879 /* Model */,
 				FA756C9B2123ED3F0020A879 /* Info.plist */,
 			);
 			path = MC3;
+			sourceTree = "<group>";
+		};
+		FA756CA12123EDA40020A879 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA756CA22123EDB00020A879 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA756C932123ED3E0020A879 /* Main.storyboard */,
+				FA756C982123ED3F0020A879 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA756CA32123EDB60020A879 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA756C912123ED3E0020A879 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FA756CA42123EDCB0020A879 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				FA756C8F2123ED3E0020A879 /* AppDelegate.swift */,
+				FA756C962123ED3F0020A879 /* Assets.xcassets */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
